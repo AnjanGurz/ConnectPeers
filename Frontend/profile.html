@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerFinder - Create Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="max-w-2xl mx-auto mt-10 p-6 bg-gray-800 rounded-lg">
+        <h1 class="text-2xl font-bold text-center">Create Your Profile</h1>
+        <p class="text-center text-gray-400 mt-2">Tell us about your academic interests and goals to find the perfect study partner!</p>
+        
+        <form class="mt-6">
+            <label class="block text-sm font-medium">Full Name</label>
+            <input type="text" class="w-full p-2 rounded bg-gray-700 text-white mt-1" placeholder="Enter your name">
+            
+            <label class="block text-sm font-medium mt-4">Profile Picture</label>
+            <input type="file" class="w-full p-2 rounded bg-gray-700 text-white mt-1">
+            
+            <label class="block text-sm font-medium mt-4">Academic Interests</label>
+            <select class="w-full p-2 rounded bg-gray-700 text-white mt-1">
+                <option>Select your area of interest</option>
+                <option>Web Development</option>
+                <option>Data Science</option>
+                <option>Machine Learning</option>
+                <option>Cybersecurity</option>
+                <option>Cloud Computing</option>
+                <option>Software Engineering</option>
+                <option>Artificial Intelligence</option>
+                <option>Blockchain Technology</option>
+            </select>
+            
+            <label class="block text-sm font-medium mt-4">Learning Goals</label>
+            <input type="text" class="w-full p-2 rounded bg-gray-700 text-white mt-1" placeholder="e.g. Master React.js, Learn Python for Data Science">
+            
+            <label class="block text-sm font-medium mt-4">Availability</label>
+            <select class="w-full p-2 rounded bg-gray-700 text-white mt-1">
+                <option>Select your availability</option>
+                <option>Mornings</option>
+                <option>Afternoons</option>
+                <option>Evenings</option>
+                <option>Weekends</option>
+            </select>
+            
+            <label class="block text-sm font-medium mt-4">About You</label>
+            <textarea class="w-full p-2 rounded bg-gray-700 text-white mt-1" rows="3" placeholder="Write a short bio about your learning journey."></textarea>
+            
+            <button type="submit" class="mt-6 w-full bg-blue-500 py-2 rounded text-white font-bold">Create Profile</button>
+        </form>
+    </div>
+</body>
+</html>

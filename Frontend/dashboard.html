@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PeerFinder Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <nav class="bg-gray-800 p-4 flex justify-between items-center">
+      <div class="text-xl font-bold">PeerFinder</div>
+      <div class="flex space-x-4">
+        <input
+          type="text"
+          placeholder="Search groups..."
+          class="p-2 rounded bg-gray-700 text-white"
+        />
+        <button class="bg-blue-500 px-4 py-2 rounded">Browse</button>
+        <button class="bg-green-500 px-4 py-2 rounded">+ New</button>
+      </div>
+      <div class="flex space-x-4 items-center">
+        <a href="#" class="text-gray-300">Blog</a>
+        <a href="#" class="text-gray-300">Help</a>
+        <button class="text-gray-300">🔔</button>
+        <button class="text-gray-300">✉️</button>
+        <a href="profile.html"><button class="text-gray-300">👤</button></a>
+      </div>
+    </nav>
+    <div class="max-w-4xl mx-auto mt-10 p-6">
+      <h1 class="text-2xl font-bold">Welcome, User!</h1>
+      <button class="mt-4 bg-gray-700 px-4 py-2 rounded">
+        Edit my profile
+      </button>
+      <div class="grid grid-cols-2 gap-6 mt-6">
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <h2 class="text-lg font-semibold">Be a Member of groups</h2>
+          <p class="text-sm text-gray-400">open groups are waiting for you!</p>
+          <button class="mt-4 bg-orange-500 px-4 py-2 rounded">
+            Find group
+          </button>
+          <p class="mt-2 text-gray-400 text-sm">
+            You are not a member of any group.
+          </p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <h2 class="text-lg font-semibold">Create groups</h2>
+          <p class="text-sm text-gray-400">users waiting for your group!</p>
+          <button class="mt-4 bg-green-500 px-4 py-2 rounded">
+            Start a new group
+          </button>
+          <p class="mt-2 text-gray-400 text-sm">
+            You don’t own any groups. You can start a new one!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
